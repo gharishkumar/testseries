@@ -279,7 +279,7 @@
                 </div>
             </div>
         </div>
-        <div class="file-item">
+        <div class="file-item" disabled>
             <a href="4299.pdf" class="file-item-name">
             <div class="file-item-select-bg bg-primary"></div>
             <div class="file-item-icon far fa-file-pdf text-secondary"></div>
@@ -305,7 +305,7 @@
                 </div>
             </div>
         </div>
-        <div class="file-item">
+        <div class="file-item" disabled>
             <a href="4301.pdf" class="file-item-name">
             <div class="file-item-select-bg bg-primary"></div>
             <div class="file-item-icon far fa-file-pdf text-secondary"></div>
@@ -318,7 +318,7 @@
                 </div>
             </div>
         </div>
-        <div class="file-item">
+        <div class="file-item" disabled>
             <a href="4302.pdf" class="file-item-name">
             <div class="file-item-select-bg bg-primary"></div>
             <div class="file-item-icon far fa-file-pdf text-secondary"></div>
@@ -610,6 +610,11 @@ body{margin-top:20px;}
     .dark-style .file-manager-col-view .file-item.selected .file-item-actions {
         opacity: 1;
     }
+}
+*:disabled {
+  background-color: dimgrey;
+  color: linen;
+  opacity: 1;
 }
 
 </style>
